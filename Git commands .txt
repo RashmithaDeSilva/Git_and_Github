@@ -1,0 +1,165 @@
+-> https://git-school.github.io/visualizing-git/
+
+**********************************************
+
+# Check all git congigarations
+git config --list --show-origin
+
+**********************************************
+
+# Create git repositary 
+git init
+
+**********************************************
+
+# See hidding file 
+ls -a
+
+**********************************************
+
+# Check who the project devaloper 
+git config user.email
+
+**********************************************
+
+# Congiger git email
+git config --local user.email example@gmail.com
+
+**********************************************
+
+# Chech user name
+git config user.name
+
+**********************************************
+
+# Change user name 
+git config --local user.name userName
+
+**********************************************
+
+# Remove concigarations
+git config --local --remove-section user
+
+**********************************************
+
+# Check git reposetary status
+git status
+
+**********************************************
+
+# Add file 
+git add fileName/.
+
+**********************************************
+
+# Comit
+git commit -m "massege"
+
+**********************************************
+
+# Check all logs
+git log
+git log --oneline
+
+**********************************************
+
+# Manage defarance
+git diff
+git diff --staged
+git diff head
+
+**********************************************
+
+# Change file name (Rename) 
+mv oldName.txt newName.txt
+
+**********************************************
+
+# Back to renamed file 
+git restore --staged fileName.txt
+
+**********************************************
+
+# Create new brench
+git checkout -b branchName
+git branch branchName
+
+**********************************************
+
+# Change head anathor branche
+git checkout branch name
+
+**********************************************
+
+# Delete branch
+git branch -d branchName
+git branch -D branchName
+
+**********************************************
+
+-> Conflicts type
+ 1. resolve conflicts (histry is stil hear)
+ 2. rebase conflicts (hestry will delete)
+
+**********************************************
+
+-> merge types 
+ 1. recursive merge
+ 2. fast forward merge
+
+# Connect branchers (merge)
+git merge branchName
+
+**********************************************
+
+# Rebase branchers (delete all comot and that branch and it will conec with what branch want conect u)
+git rebase branchName
+
+**********************************************
+
+# Interactive rebasing (we can save comits we want)
+git rabase -i branchName
+
+**********************************************
+
+# Reset last commit
+git --diff --cached
+git commit --amend
+
+**********************************************
+
+# Detached Head (Continue in mideel commit)
+git checkout commitName
+
+**********************************************
+
+# Reset
+
+
+**********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
