@@ -1,0 +1,54 @@
+########################################
+
+# Cloning HTTP
+git clone repo HTTP
+
+########################################
+
+# Cloning SSH
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+ssh -t git@github.com
+git clone repo SSH
+
+########################################
+
+# Set origin 
+git remote add origin repoLink
+
+########################################
+
+# Change master branche name into main branch
+git branch -M main
+
+########################################
+
+# Push project 
+git push -u origin main
+
+########################################
+
+# Add .README file
+git add README.md
+
+########################################
+
+# Fatch (Only set with updates in to commit area)
+git fatch origin
+
+########################################
+
+# Pull (Fatch and merch - update working derectory)
+git pull origin
+
+########################################
+
+
+
+
+
+
+
+
+
