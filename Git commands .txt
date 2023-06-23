@@ -123,7 +123,7 @@ git rabase -i branchName
 **********************************************
 
 # Reset last commit
-git --diff --cached
+git --diff --cached -m "Commit message"
 git commit --amend
 
 **********************************************
